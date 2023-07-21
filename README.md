@@ -10,7 +10,7 @@ This project aims at bringing multiple teams from TUM and Uni Potsdam together t
 
 
 ## Project Owners:
-- Christian Alexander Pesch 
-- Utku Saglam 
-- Nisse Degelin
+- [Christian Alexander Pesch](https://github.com/TheWreckTUM)
+- [Utku Saglam](https://github.com/utkusaglm)
+- [Nisse Degelin](https://github.com/nickatillinois)
 # Detailed information about the project can be found in here [Course web Site](https://www.ce.cit.tum.de/caps/lehre/ss23/praktika/accelerating-convolutional-neural-networks-using-programmable-logic/).
