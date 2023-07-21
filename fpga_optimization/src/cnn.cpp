@@ -381,53 +381,7 @@ Tensor * CNN::inference(Tensor * input)
                     break;
                     
                 }
-                /*
-                else{
 
-                //FOR BASIC CONVOLUTION
-                printf("Now, we are doing the basic convolution\n");
-                auto start = mtick();
-                Tensor* padded_X = padTensor(X, lay.pad);
-                //X = padTensor(X, lay.pad);
-                conv2d(padded_X, lay.W, lay.B, lay.Z);
-                //convFFT() 
-                //convWingrad()
-                double time = mtock(start);
-                printf("-------------------------------------------\n");
-                printf("Time taken for basic convolution is %f\n",time);
-                printf("-------------------------------------------\n");
-                runtime[3] += time;
-                //printf("Type: Conv\n");
-                delete padded_X;
-                break;
-                }*/
-
-                //FOR WINOGRAD
-                /*X = padTensor(X, lay.pad);
-                Tensor * W_wino = winoWeights(lay.W, lay.Z->size[0]);
-                auto start = mtick();
-                convWinograd(X, W_wino, lay.B, lay.Z,  lay.W->size[2]);
-                double time = mtock(start);
-                
-                delete [] W_wino;
-                runtime[3] += time;
-                break;
-                /*
-                else{
-                //FOR FFT
-                printf("Now, we are doing FFT convolution\n");
-                X = padTensor(X, lay.pad);
-                C_Tensor * W_fft = fftWeights(lay.W, lay.Z->size[0]);
-                auto start = mtick();
-                convFFT(X, W_fft, lay.B, lay.Z,  lay.W->size[2]);
-                double time = mtock(start);
-                printf("-------------------------------------------\n");
-                printf("Time taken for FFT convolution is %f\n",time);
-                printf("-------------------------------------------\n");
-                delete [] W_fft;
-                runtime[3] += time;
-                break;
-                }*/
             }
             case Layer_Type::Softmax:
             {
