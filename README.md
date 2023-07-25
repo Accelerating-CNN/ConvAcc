@@ -42,12 +42,17 @@ Please find the very detailed report of the project in here.
 
 # Some Figures from the Project(Can be found in the report):
 **Implementation:**
+
 ![alt text](fpga_optimization/vivado_architecture.jpg)
 **Total Time Absolute Comparison:**
+
 ![alt text](TotalTimeAbsoluteComparison.jpg)
 **Total Time Relative Comparison:**
+
 ![alt text](TotalTimeRelativeComparison.jpg)
 **Initiation Interval:**
+
 ![alt text](init.png)
 **Line Buffer:**
+
 ![alt text](linebuffer1.png)
