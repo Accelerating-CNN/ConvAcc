@@ -13,7 +13,7 @@ CXX=g++
 
 
 FLAGS += -I$(UTILDIR) -I$(SRCDIR)  -O3
-
+FLAGS += --std=c++11
 
 TRG=lab2.bin
 
