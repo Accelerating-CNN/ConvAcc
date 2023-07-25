@@ -5,6 +5,10 @@ Today, a lot of AI classification is performed on the cloud, which allows big co
 
 This project aims at bringing multiple teams from TUM and Uni Potsdam together to offer hybrid practical courses regarding the development of dedicated AI chips. The project has access to the unique opportunity for students to fabricate their own AI-chips due to the Partnership with Leibniz Institute for High Performance Microelectronics (IHP)
 
+
+# Abstract:
+In this project paper, we propose an accelerated Convolutional Neural Network (CNN) architecture designed specifically for the FPGA-based PYNQ- Z2 development board. We explore the efficacy of fast convolutional operators, such as the Wino- grad and FFT convolutions. Since the complex- ities of these algorithms increase the difficulty of practical FPGA implementations, we focus on the traditional convolutional operator. The results of our work are highly promising, as we achieve a remarkable 2.7-fold overall speed-up by applying our optimizations to the CNN. Additionally, we suggest optimizations to further enhance efficiency. Our research demonstrates the potential of FPGA- accelerated deep learning, since the traditional con- volutional operator on the FPGA is only slightly slower than fast convolutions such as Winograd executed on a CPU.
+
 # Report:
 Please find the very detailed report of the project in here.
 [Overall Report](acc_report.pdf)
@@ -38,6 +42,8 @@ Please find the very detailed report of the project in here.
 - [Christian Alexander Pesch](https://github.com/TheWreckTUM)
 - [Utku Saglam](https://github.com/utkusaglm)
 - [Nisse Degelin](https://github.com/nickatillinois)
+
+
 ## Detailed information about the project can be found in here [Course web Site](https://www.ce.cit.tum.de/caps/lehre/ss23/praktika/accelerating-convolutional-neural-networks-using-programmable-logic/).
 
 # Some Figures from the Project(Can be found in the report):
